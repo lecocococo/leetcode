@@ -21,8 +21,8 @@ class RandomizedSet:
 #         return random.choice(list(self.dict.keys()))
 
     def __init__(self):
-      self.dict = {}
-      self.nums = []
+        self.dict = {}
+        self.nums = []
         
     def insert(self, val):
         if val not in self.dict or self.dict[val] == 0:
